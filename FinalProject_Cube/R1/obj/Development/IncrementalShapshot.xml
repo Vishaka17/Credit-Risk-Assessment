@@ -1,0 +1,117 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>R1</Database>
+    <Server>LAPTOP-4N508R6N\SQL2019VYSHALI</Server>
+    <ConnectionString>Data Source=LAPTOP-4N508R6N\SQL2019VYSHALI;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>ChUVjHnWDv3I+J6kQ/l7CWdQIzE=14-04-2025 21:06:2214-04-2025 21:04:27</TimeStamp>
+        <ID>
+          <String>Final Project_R1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>MPwB02a1chD4bIfM8oDLe/oaeLU=14-04-2025 21:04:0914-04-2025 21:04:27</TimeStamp>
+        <ID>
+          <String>Final Project1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>6oP5F+qJDVxQ4f0zyWtSk2N5lKo=14-04-2025 21:36:0814-04-2025 21:04:27</TimeStamp>
+        <ID>
+          <String>Dim Fact Transactions</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>E1YQIG+EFDa1pgx9gxKdvmDLMsY=14-04-2025 21:04:0914-04-2025 21:04:27</TimeStamp>
+        <ID>
+          <String>Dim Chargebacks</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>7FoAvs/Edn28VPhJm0qoPSNnhds=14-04-2025 21:04:0914-04-2025 21:04:27</TimeStamp>
+        <ID>
+          <String>Dim Credit Cards</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>wZRgC2MWKC0MN1kMJuvYZFlk12I=14-04-2025 21:04:0914-04-2025 21:04:27</TimeStamp>
+        <ID>
+          <String>Dim Customers</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Hxxf5yywIZfrWKnx8fccRflQq+4=14-04-2025 21:04:0914-04-2025 21:04:27</TimeStamp>
+        <ID>
+          <String>Dim Fraud Rules</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>wmbZTdbkHlNawNlp2AvOiNG6RQM=14-04-2025 21:04:1014-04-2025 21:04:27</TimeStamp>
+        <ID>
+          <String>Dim Merchants</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>cUSWZ+DscoQc5GM4hFkxio+ZzyM=14-04-2025 21:04:0914-04-2025 21:04:27</TimeStamp>
+        <ID>
+          <String>Dim Transaction Types</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>NAWfVgSZJBrnhF/WiFBmTmiXRbE=14-04-2025 21:04:1014-04-2025 21:04:27</TimeStamp>
+        <ID>
+          <String>Dim Branches</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>OmQovMN+fgVa1APdB98P2pmDZWc=14-04-2025 21:04:0914-04-2025 21:04:27</TimeStamp>
+        <ID>
+          <String>DIM Time</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>DaBizGoZpcGX0FIZE4pJqqXdul8=14-04-2025 21:36:0814-04-2025 21:04:27JE7QNp8tt8PJ6j2Jw6PPwJ57W7E=14-04-2025 21:04:0914-04-2025 21:04:27</TimeStamp>
+        <ID>
+          <String>Final ProjectR1</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>7riVCC8Ei3Y7OsFdcX0iq9xg75E=14-04-2025 21:04:0914-04-2025 21:04:27</TimeStamp>
+      <ID>
+        <String>R1</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2025-04-15T01:37:19.93Z</LastDeployed>
+</DeploymentSnapshot>
